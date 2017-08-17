@@ -3,9 +3,9 @@ Brief: Give total memory and list of process durations to consume
        1 byte each, this program finds the total time it would take
        to exhaust all memory.
 
-Params:  ./weta_puzzle.py <total_memory> <P1 time> <P2 time> ... <P-n time>
+Params:  ./eta_calculator.py <total_memory> <P1 time> <P2 time> ... <P-n time>
 
-Example: ./weta_puzzle.py 16 4 3 2
+Example: ./eta_calculator.py 16 4 3 2
 
 Author: Saurabh Singh
 """
@@ -23,7 +23,7 @@ from sys import stdin
 # Set Logging
 # ---------------------------------------------------------------
 logging.basicConfig(level=logging.INFO)
-log = logging.getLogger('weta_puzzle')
+log = logging.getLogger('eta_calculator')
 
 
 # ---------------------------------------------------------------
